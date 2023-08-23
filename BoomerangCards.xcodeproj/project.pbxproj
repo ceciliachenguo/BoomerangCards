@@ -11,6 +11,11 @@
 		8DDB15F92A95705100B25482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB15F82A95705100B25482 /* ContentView.swift */; };
 		8DDB15FB2A95705400B25482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDB15FA2A95705400B25482 /* Assets.xcassets */; };
 		8DDB15FE2A95705400B25482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDB15FD2A95705400B25482 /* Preview Assets.xcassets */; };
+		8DDB16072A95707800B25482 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB16062A95707800B25482 /* Card.swift */; };
+		8DDB16092A9570FC00B25482 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB16082A9570FC00B25482 /* Home.swift */; };
+		8DDB160B2A95857400B25482 /* BoomrangCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB160A2A95857400B25482 /* BoomrangCard.swift */; };
+		8DDB160D2A95874000B25482 /* SingleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB160C2A95874000B25482 /* SingleCardView.swift */; };
+		8DDB160F2A95927800B25482 /* AvatarStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB160E2A95927800B25482 /* AvatarStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8DDB15F82A95705100B25482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DDB15FA2A95705400B25482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DDB15FD2A95705400B25482 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DDB16062A95707800B25482 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8DDB16082A9570FC00B25482 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8DDB160A2A95857400B25482 /* BoomrangCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomrangCard.swift; sourceTree = "<group>"; };
+		8DDB160C2A95874000B25482 /* SingleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCardView.swift; sourceTree = "<group>"; };
+		8DDB160E2A95927800B25482 /* AvatarStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		8DDB15F52A95705100B25482 /* BoomerangCards */ = {
 			isa = PBXGroup;
 			children = (
+				8DDB16052A95706D00B25482 /* Model */,
+				8DDB16042A95706900B25482 /* View */,
 				8DDB15F62A95705100B25482 /* BoomerangCardsApp.swift */,
 				8DDB15F82A95705100B25482 /* ContentView.swift */,
 				8DDB15FA2A95705400B25482 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				8DDB15FD2A95705400B25482 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DDB16042A95706900B25482 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DDB16082A9570FC00B25482 /* Home.swift */,
+				8DDB160A2A95857400B25482 /* BoomrangCard.swift */,
+				8DDB160C2A95874000B25482 /* SingleCardView.swift */,
+				8DDB160E2A95927800B25482 /* AvatarStackView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DDB16052A95706D00B25482 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DDB16062A95707800B25482 /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DDB15F92A95705100B25482 /* ContentView.swift in Sources */,
+				8DDB160B2A95857400B25482 /* BoomrangCard.swift in Sources */,
+				8DDB160D2A95874000B25482 /* SingleCardView.swift in Sources */,
+				8DDB16092A9570FC00B25482 /* Home.swift in Sources */,
+				8DDB16072A95707800B25482 /* Card.swift in Sources */,
+				8DDB160F2A95927800B25482 /* AvatarStackView.swift in Sources */,
 				8DDB15F72A95705100B25482 /* BoomerangCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
